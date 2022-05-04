@@ -1,1 +1,3 @@
 Meu primeiro repositório Git
+Primeiro exercício de Git&GitHub
+adicionar, comitar e depois fazer o push
