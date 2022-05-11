@@ -1,0 +1,23 @@
+.animal-info {
+    max-width: 70%;
+}
+
+.stomatopoda {
+    width: 400px;
+}
+
+.lateral-bar {
+    float: right;
+    margin-top: -750px;
+    margin-right: 500px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.subtitle {
+    color: red;
+}
+.autor {
+    color: blue;
+}
