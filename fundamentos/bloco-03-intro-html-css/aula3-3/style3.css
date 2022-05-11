@@ -5,7 +5,7 @@
     list-style: none;
 }
 .list li:hover {
-    background-color: lightblue;
+    background-color: rgb(154, 205, 223);
 }
 .list li:active {
     font-family: 'Courier New', Courier, monospace;
