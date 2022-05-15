@@ -7,5 +7,5 @@ let array = [];
 }
     console.log(array);
     for(let number of array) {
-        console.log(number);
+        console.log(number / 2);
     }
