@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trybe Trip</title>
+</head>
+<style>
+  #caixa {
+    border: 2px solid black;
+    padding: 2px;
+  }
+</style>
+<body>
+<header><h1>Concurso Trybe Trip</h1></header>
+<form action="" method="get" id="form">  
+  <div id="caixa">
+    <label for="name">Nome Completo:</label>
+      <input type="text" name="name" id="name" size=30px>
+<br>
+<br>
+    <label for="email">Email:</label>
+      <input type="email" name="email" id="email" size=25px>
+<br>
+<br>
+    <label for="city">Destino preferido:
+      <input type="radio" name="lugar" value="Cidade" id="city">Cidade
+    </label>
+    <label for="field">
+      <input type="radio" name="lugar" value="Campo" id="field">Campo
+    </label>
+      <label for="beach">
+      <input type="radio" name="lugar" value="Praia" id="beach">Praia
+    </label>
+    <label for="mountains">
+      <input type="radio" name="lugar" value="Montanhas" id="mountains">Montanhas
+    </label>
+<br>
+<br>
+    <label for="resposta">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso Trybe Trip?</label>
+<br>
+      <textarea name="resposta" id="answer" cols="30" rows="10"></textarea>
+<br>
+    <label for="data">Qual a melhor data para realizar sua viagem?</label>
+      <input type="date" name="data">
+<br>
+<br>
+    <label for="receber notícias"></label>
+      <input type="checkbox" name="notícias">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+<br>
+    <label for="permissão"></label>
+      <input type="checkbox" name="permissão" required>Concordo que imagens das minhas férias poderão ser utilizadas na divulgação de concursos futuros.
+  </div>
+<br>
+  <label for="enviar"></label>
+    <button type="submit" name="enviar" id="send">Enviar</button>
+  <label for="reset"></label>
+    <button type="reset" name="reset">Apagar</button>
+</form>
+<script src="form.js"></script>
+</body>
+</html>
