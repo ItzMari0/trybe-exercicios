@@ -1,12 +1,30 @@
+.h1, p{
+  text-align: center;
+}
+
+.list{
+  list-style: none;
+}
+
+.list:hover{
+  background-color: aqua;
+}
+
+.list:active{   
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 .text {
-    text-align: center;
+  text-align: center;
 }
+
 .list {
-    list-style: none;
+  list-style: none;
 }
+  
 .list li:hover {
-    background-color: rgb(154, 205, 223);
+  background-color: rgb(154, 205, 223);
 }
+
 .list li:active {
-    font-family: 'Courier New', Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
 }

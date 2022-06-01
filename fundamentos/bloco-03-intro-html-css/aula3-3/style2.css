@@ -1,33 +1,55 @@
 .super-mario {
-    width: 200px;
-    position: absolute;
-  }
-  
-  .goomba {
-    position: absolute;
-    width: 100px;
-    margin-left: 110px;
-    margin-top: 260px;
-  }
-  
-  .baloon {
-    position: absolute;
-    margin-left: 300px;
-    margin-top: 5px;
-    z-index: 1;
+  width: 200px;
 }
   
-  .speach {
-    position: absolute;
-    font-size: 25px;
-    margin-left: 320px;
-    margin-top: 60px;
-    z-index: 2;
-  }
+.goomba {
+  width: 100px;
+  position: absolute; top: 340px; left: 130px;
+}
   
-  .bowser {
-    position: absolute;
-    width: 200px;
-    margin-left: 600px;
-    margin-top: 140px;
+.baloon {
+  position: absolute; top: 60px; right: 500px;
+  z-index: 1;
+}
+  
+.speach {
+  font-size: 25px;
+  position: absolute; top: 90px; right: 530px;
+  z-index: 2;
+}
+  
+.bowser {
+  width: 200px;
+  position: absolute; top: 200px; right: 300px;
+  width: 200px;
+  position: absolute;
+}
+  
+.goomba {
+   position: absolute;
+   width: 100px;
+   margin-left: 110px;
+   margin-top: 260px;
+ }
+  
+.baloon {
+   position: absolute;
+   margin-left: 300px;
+   margin-top: 5px;
+   z-index: 1;
+}
+  
+.speach {
+  position: absolute;
+  font-size: 25px;
+  margin-left: 320px;
+  margin-top: 60px;
+  z-index: 2;
+}
+  
+.bowser {
+  position: absolute;
+  width: 200px;
+  margin-left: 600px;
+  margin-top: 140px;
 }
