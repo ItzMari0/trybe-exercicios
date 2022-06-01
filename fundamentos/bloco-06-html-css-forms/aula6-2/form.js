@@ -1,3 +1,5 @@
+document.getElementById('calendar').DatePickerX.init();
+
 window.onload = function() {
   const send = document.querySelector('#send');
   send.addEventListener('click', submit);
