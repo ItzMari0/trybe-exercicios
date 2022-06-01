@@ -19,7 +19,7 @@ function error() {
 }
 
 function submit(event) {
-  event.preventDefault();
+  // event.preventDefault();
   const validation = error();
   if (validation === false) {
     alert('Dados Inválidos!');
