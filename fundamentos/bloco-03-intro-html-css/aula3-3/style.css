@@ -22,3 +22,15 @@ margin: 30px;
 .border {
   border: 5px solid black;
 }
+ 
+.padding {
+  padding: 20px;
+}
+  
+.margin {
+  margin: 30px;
+}
+  
+.border {
+  border: 5px solid black;
+}

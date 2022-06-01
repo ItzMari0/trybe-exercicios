@@ -1,0 +1,45 @@
+      .title_container {
+        text-align: center;
+      }
+
+      .podium {
+        list-style: none;
+        display: inline-block;
+      }
+
+      .first {
+        background-color: rgb(235, 200, 84);
+        font-size: 20px;
+        height: 40px;
+        text-align: center;
+        width: 150px;
+        margin-left: 520px;
+      }
+
+      .second {
+        background-color: rgb(219, 219, 219);
+        font-size: 20px;
+        height: 40px;
+        text-align: center;
+        width: 200px;
+        margin-left: 395px;
+      }
+
+      .third {
+        background-color: rgb(170, 142, 106);
+        font-size: 20px;
+        height: 40px;
+        text-align: center;
+        width: 200px;
+        margin-left: 600px;
+        margin-top: -40px;
+      }
+
+      .titles {
+        text-align: center;
+      }
+
+      .rewards {
+        list-style: none;
+        text-align: center;
+      }

@@ -12,4 +12,19 @@
 
 .list:active{   
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+.text {
+  text-align: center;
+}
+
+.list {
+  list-style: none;
+}
+  
+.list li:hover {
+  background-color: rgb(154, 205, 223);
+}
+
+.list li:active {
+  font-family: 'Courier New', Courier, monospace;
 }
