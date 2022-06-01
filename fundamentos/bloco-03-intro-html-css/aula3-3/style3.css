@@ -1,12 +1,15 @@
 .h1, p{
-    text-align: center;
+  text-align: center;
 }
+
 .list{
-    list-style: none;
+  list-style: none;
 }
+
 .list:hover{
-    background-color: aqua;
+  background-color: aqua;
 }
+
 .list:active{   
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
