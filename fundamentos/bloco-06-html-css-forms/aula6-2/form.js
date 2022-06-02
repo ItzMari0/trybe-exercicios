@@ -1,4 +1,7 @@
 document.getElementById('calendar').DatePickerX.init();
+// const date = document.getElementById('calendar').value
+// const datePickerX = init();
+// date = datePickerX.value
 
 window.onload = function() {
   const send = document.querySelector('#send');
