@@ -1,0 +1,106 @@
+ html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 30px 30px;
+}
+
+article {
+  font-size: medium;
+}
+
+h1 {
+  font-size: large;
+}
+
+h2 {
+  font-size: large;
+}
+
+img {
+	max-width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+	margin: 0;
+}
+
+figcaption {
+  font-size: .8em;
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-color: rgb(209, 207, 207);
+    margin: 15px 15px;
+  }
+  
+  article {
+    font-size: large;
+  }
+  
+  h1 {
+    font-size: xx-large;
+  }
+  
+  h2 {
+    font-size: xx-large;
+  }
+  
+  section {
+    flex-flow: wrap;
+  }
+  
+  figure {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 20px 20px;
+  }
+  
+  img {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  body {
+    background-color: rgb(179, 203, 247);
+  }
+  article {
+    font-size: x-large;
+  }
+  
+  h1 {
+    font-size: xxx-large;
+  }
+  
+  h2 {
+    font-size: xxx-large;
+  }
+
+  img {
+    height: 350px;
+    width: 350px;
+  }
+}
