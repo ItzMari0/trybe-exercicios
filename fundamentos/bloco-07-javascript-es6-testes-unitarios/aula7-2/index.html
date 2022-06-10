@@ -32,10 +32,10 @@
 
       const verify = (value1, value2) => {
         if (!value1 || !value2) {
-        throw new Error("Os dois campos devem ser preenchidos com números");
+          throw new Error("Os dois campos devem ser preenchidos com números");
         }
         if (isNaN(value1) || isNaN(value2)) {
-        throw new Error("Utilize apenas números");
+          throw new Error("Utilize apenas números");
         }
       };
 
