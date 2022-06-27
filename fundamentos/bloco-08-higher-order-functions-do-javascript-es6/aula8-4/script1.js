@@ -61,9 +61,22 @@ const books = [
   },
 ];
 
-function reduceNames() {
-  const authors = books.map((book) => ` ${book.author.name}`).toString();
-  return authors;
-}
+// function reduceNames() {
+//   const authors = books.reduce((acc, book, index, array) => {
+//     if (index === array.length -1) {
+//       return `${acc} ${book.author.name}.`;
+//     }
+//     return `${acc} ${book.author.name},`;
+//   }, '');
+//   return authors.trim();
+// }
 
-console.log(reduceNames(books));
+// console.log(reduceNames(books));
+
+function averageAge() {
+  const averAge = books.map((book) => (book.releaseYear - book.author.birthYear));
+  const average = averAge.reduce((acc, number) => acc + number) / books.length;
+  return average;
+};
+
+console.log(averageAge(books));
