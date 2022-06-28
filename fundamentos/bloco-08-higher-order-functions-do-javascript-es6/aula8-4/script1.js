@@ -73,10 +73,17 @@ const books = [
 
 // console.log(reduceNames(books));
 
-function averageAge() {
-  const averAge = books.map((book) => (book.releaseYear - book.author.birthYear));
-  const average = averAge.reduce((acc, number) => acc + number) / books.length;
-  return average;
-};
+// function averageAge() {
+//   const averAge = books.map((book) => (book.releaseYear - book.author.birthYear));
+//   const average = averAge.reduce((acc, number) => acc + number) / books.length;
+//   return average;
+// };
 
-console.log(averageAge(books));
+// console.log(averageAge(books));
+
+function longestNamedBook() {
+  const biggest = books.reduce((acc, book) => (acc > book.name) ? acc : book.name);
+  return biggest;
+}
+
+console.log(longestNamedBook(books));
